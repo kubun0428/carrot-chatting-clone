@@ -1,0 +1,77 @@
+.chat-me {
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  margin: 10px;
+}
+.chat-me__time {
+  color: grey;
+  margin-right: 5px;
+}
+.chat-me__content {
+  font-size: 18px;
+  color: white;
+  width: 320px;
+  padding: 10px;
+  border-radius: 20px 0px 20px 20px;
+  background-color: #ff6e00;
+}
+
+.chat-you {
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  margin: 10px 10px 10px 0px;
+}
+
+.chat-you img {
+  width: 50px;
+  max-width: 100%;
+  height: auto;
+  margin-right: 5px;
+}
+
+.chat-you__time {
+  color: grey;
+  margin-right: 5px;
+}
+.chat-you__content {
+  font-size: 18px;
+  width: 320px;
+  padding: 10px;
+  border-radius: 0px 20px 20px 20px;
+  background-color: #e9ebee;
+}
+
+.chat-appointment {
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #e9ebee;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 20px;
+}
+
+.chat-appointment__time {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.chat-appointment__time img {
+  width: 20px;
+  background-color: #e9ebee;
+  border-radius: 15px;
+  padding: 3px;
+  margin-right: 5px;
+}
+.chat-appointment__info {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.chat-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}

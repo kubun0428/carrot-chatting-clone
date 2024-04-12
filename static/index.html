@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css\header.css" />
     <link rel="stylesheet" href="css\main.css" />
     <link rel="stylesheet" href="css\footer.css" />
+    <script src="app.js"></script>
   </head>
   <body>
     <header>
@@ -66,11 +67,14 @@
       <div class="chat-info">
         약속 시간 30분 전에 슬기맘님에게 알림이 울릴 거예요.
       </div>
+      <div id="new-chat" class="chat-me"></div>
     </main>
     <footer>
       <img src="assets/plus.svg" alt="" />
-      <div class="chatbar-chatbox">
-        <input type="text" placeholder="메시지를 입력하세요" />
+      <div id="chat-container" class="chatbar-chatbox" class="chat-container">
+        <form id="chat-form">
+          <input type="text" placeholder="메시지를 입력하세요" />
+        </form>
         <img src="assets/smile.svg" alt="" />
       </div>
       <img src="assets/right-arrow.svg" alt="" />

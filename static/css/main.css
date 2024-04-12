@@ -11,10 +11,13 @@
 .chat-me__content {
   font-size: 18px;
   color: white;
-  width: 320px;
   padding: 10px;
   border-radius: 20px 0px 20px 20px;
   background-color: #ff6e00;
+}
+.chat-me:last-child {
+  display: block;
+  justify-content: flex-end;
 }
 
 .chat-you {
@@ -37,7 +40,6 @@
 }
 .chat-you__content {
   font-size: 18px;
-  width: 320px;
   padding: 10px;
   border-radius: 0px 20px 20px 20px;
   background-color: #e9ebee;
